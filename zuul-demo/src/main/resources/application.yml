@@ -1,0 +1,15 @@
+spring:
+ application:
+    name: zuul
+server:
+  port: 9090
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/       
+zuul:
+  routes:
+    shoppingcart:
+      path: /shop/**
+      serviceId: shopping-cart  
+# sensitive-headers: Cookie,Set-Cookie

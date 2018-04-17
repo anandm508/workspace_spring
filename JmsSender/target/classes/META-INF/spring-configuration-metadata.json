@@ -1,0 +1,27 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.template.configure.JMSTemplateProperties",
+      "name": "template.config",
+      "type": "com.template.configure.JMSTemplateProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.template.configure.JMSTemplateProperties",
+      "name": "template.config.broker-urls",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.template.configure.JMSTemplateProperties",
+      "name": "template.config.listiners",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.template.configure.JMSTemplateProperties",
+      "name": "template.config.qeues",
+      "type": "java.util.List<java.lang.String>"
+    }
+  ]
+}

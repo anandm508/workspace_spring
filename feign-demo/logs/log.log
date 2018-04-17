@@ -1,0 +1,552 @@
+12-02-2018 12:47:47.449 [restartedMain] INFO  c.example.demo.FeignDemoApplication.logStartupProfileInfo - The following profiles are active: dev
+12-02-2018 12:47:47.468 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@429a40a9: startup date [Mon Feb 12 12:47:47 IST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6ad58f30
+12-02-2018 12:47:48.397 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=10fba5d9-0b24-3a77-84c3-f72777ca9d90
+12-02-2018 12:47:48.411 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.<init> - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+12-02-2018 12:47:48.453 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$74b56da8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12-02-2018 12:47:49.198 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 0 (http)
+12-02-2018 12:47:49.210 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+12-02-2018 12:47:49.212 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.27
+12-02-2018 12:47:49.568 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+12-02-2018 12:47:49.568 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 2100 ms
+12-02-2018 12:47:49.779 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+12-02-2018 12:47:49.784 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+12-02-2018 12:47:49.785 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+12-02-2018 12:47:49.785 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+12-02-2018 12:47:49.785 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+12-02-2018 12:47:49.847 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d09eefb: startup date [Mon Feb 12 12:47:49 IST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@429a40a9
+12-02-2018 12:47:49.872 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.<init> - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+12-02-2018 12:47:50.289 [restartedMain] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+12-02-2018 12:47:50.290 [restartedMain] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+12-02-2018 12:47:50.295 [restartedMain] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+12-02-2018 12:47:50.296 [restartedMain] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+12-02-2018 12:47:50.476 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@429a40a9: startup date [Mon Feb 12 12:47:47 IST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6ad58f30
+12-02-2018 12:47:50.551 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+12-02-2018 12:47:50.553 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12-02-2018 12:47:50.593 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12-02-2018 12:47:50.594 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12-02-2018 12:47:50.643 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12-02-2018 12:47:51.199 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+12-02-2018 12:47:51.405 [restartedMain] WARN  o.s.c.s.e.EurekaStarterDeprecationWarningAutoConfiguration.logWarning - spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+12-02-2018 12:47:51.467 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+12-02-2018 12:47:51.479 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+12-02-2018 12:47:51.480 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'environmentManager' has been autodetected for JMX exposure
+12-02-2018 12:47:51.481 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'refreshScope' has been autodetected for JMX exposure
+12-02-2018 12:47:51.486 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+12-02-2018 12:47:51.500 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+12-02-2018 12:47:51.512 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=429a40a9,type=ConfigurationPropertiesRebinder]
+12-02-2018 12:47:51.528 [restartedMain] INFO  o.s.c.s.DefaultLifecycleProcessor.start - Starting beans in phase 0
+12-02-2018 12:47:51.546 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-auto-1"]
+12-02-2018 12:47:51.556 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-auto-1"]
+12-02-2018 12:47:51.571 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+12-02-2018 12:47:51.598 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 51952 (http)
+12-02-2018 12:47:51.599 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration.onApplicationEvent - Updating port to 51952
+12-02-2018 12:47:51.606 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+12-02-2018 12:47:51.645 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+12-02-2018 12:47:51.896 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+12-02-2018 12:47:51.896 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+12-02-2018 12:47:51.984 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+12-02-2018 12:47:51.985 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+12-02-2018 12:47:52.419 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 12:47:52.474 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Disable delta property : false
+12-02-2018 12:47:52.475 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Single vip registry refresh property : null
+12-02-2018 12:47:52.475 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Force full registry fetch : false
+12-02-2018 12:47:52.476 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Application is null : false
+12-02-2018 12:47:52.476 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Registered Applications size is zero : true
+12-02-2018 12:47:52.476 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Application version is -1: true
+12-02-2018 12:47:52.476 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry - Getting all instance registry info from the eureka server
+12-02-2018 12:47:52.653 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry - The response status is 200
+12-02-2018 12:47:52.655 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.initScheduledTasks - Starting heartbeat executor: renew interval is: 30
+12-02-2018 12:47:52.659 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator.<init> - InstanceInfoReplicator onDemand update allowed rate per min is 4
+12-02-2018 12:47:52.664 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1518419872664 with initial instances count: 8
+12-02-2018 12:47:52.670 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application feign-demo with eureka with status UP
+12-02-2018 12:47:52.671 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.notify - Saw local status change event StatusChangeEvent [timestamp=1518419872671, current=UP, previous=STARTING]
+12-02-2018 12:47:52.674 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_FEIGN-DEMO/feign-demo:1689726406: registering service...
+12-02-2018 12:47:52.678 [restartedMain] DEBUG c.example.demo.FeignDemoApplication.run - doStuff needed to debug - ABC
+12-02-2018 12:47:52.680 [restartedMain] INFO  c.example.demo.FeignDemoApplication.run - doStuff took input - ABC
+12-02-2018 12:47:52.681 [restartedMain] WARN  c.example.demo.FeignDemoApplication.run - doStuff needed to warn - ABC
+12-02-2018 12:47:52.681 [restartedMain] ERROR c.example.demo.FeignDemoApplication.run - doStuff encountered an error with value - ABC
+12-02-2018 12:47:52.686 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3b40cd48: startup date [Mon Feb 12 12:47:52 IST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@429a40a9
+12-02-2018 12:47:52.784 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.<init> - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+12-02-2018 12:47:52.797 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_FEIGN-DEMO/feign-demo:1689726406 - registration status: 204
+12-02-2018 12:47:52.967 [restartedMain] INFO  c.n.config.ChainedDynamicProperty.checkAndFlip - Flipping property: service-1.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+12-02-2018 12:47:52.988 [restartedMain] INFO  c.n.u.c.ShutdownEnabledTimer.<init> - Shutdown hook installed for: NFLoadBalancer-PingTimer-service-1
+12-02-2018 12:47:53.008 [restartedMain] INFO  c.n.loadbalancer.BaseLoadBalancer.initWithConfig - Client: service-1 instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=service-1,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+12-02-2018 12:47:53.017 [restartedMain] INFO  c.n.l.DynamicServerListLoadBalancer.enableAndInitLearnNewServersFeature - Using serverListUpdater PollingServerListUpdater
+12-02-2018 12:47:53.046 [restartedMain] INFO  c.n.config.ChainedDynamicProperty.checkAndFlip - Flipping property: service-1.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+12-02-2018 12:47:53.048 [restartedMain] INFO  c.n.l.DynamicServerListLoadBalancer.restOfInit - DynamicServerListLoadBalancer for client service-1 initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=service-1,current list of Servers=[BLRPRGGWD28883.ITCINFOTECH.com:49719],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:BLRPRGGWD28883.ITCINFOTECH.com:49719;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@f1572ba
+12-02-2018 12:47:53.196 [restartedMain] INFO  c.example.demo.FeignDemoApplication.logStarted - Started FeignDemoApplication in 7.198 seconds (JVM running for 8.714)
+12-02-2018 12:47:54.021 [PollingServerListUpdater-0] INFO  c.n.config.ChainedDynamicProperty.checkAndFlip - Flipping property: service-1.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+12-02-2018 12:52:52.496 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 12:57:52.515 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 13:02:52.534 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 13:07:52.552 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 13:12:52.570 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 13:17:52.585 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 13:22:52.628 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 13:27:52.590 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 13:32:52.598 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 13:37:52.609 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 13:42:52.605 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 13:47:52.635 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 13:52:52.695 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 13:57:52.787 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 14:02:52.876 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 14:07:52.930 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 14:12:52.955 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 14:17:52.973 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 14:22:52.993 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 14:27:53.010 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 14:32:52.999 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 14:37:53.017 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 14:42:53.037 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 14:47:53.056 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 14:52:53.074 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 14:57:53.092 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 15:02:53.105 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 15:07:53.099 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 15:12:53.118 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 15:17:53.124 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 15:22:53.116 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 15:27:53.134 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 15:32:53.155 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 15:37:53.154 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 15:42:53.163 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 15:47:53.183 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 15:52:53.195 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 15:57:53.191 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 16:02:53.209 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 16:07:53.229 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 16:12:53.248 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 16:17:53.269 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 16:22:53.287 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 16:27:53.290 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 16:32:53.293 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 16:37:53.313 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 16:42:53.332 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 16:47:22.579 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+12-02-2018 16:47:22.580 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@429a40a9: startup date [Mon Feb 12 12:47:47 IST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6ad58f30
+12-02-2018 16:47:22.581 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry.deregister - Unregistering application feign-demo with eureka with status DOWN
+12-02-2018 16:47:22.582 [RMI TCP Connection(2)-127.0.0.1] WARN  c.netflix.discovery.DiscoveryClient.notify - Saw local status change event StatusChangeEvent [timestamp=1518434242582, current=DOWN, previous=UP]
+12-02-2018 16:47:22.584 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 0
+12-02-2018 16:47:22.586 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_FEIGN-DEMO/feign-demo:1689726406: registering service...
+12-02-2018 16:47:22.588 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+12-02-2018 16:47:22.593 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter.unregisterBeans - Unregistering JMX-exposed beans
+12-02-2018 16:47:22.594 [RMI TCP Connection(2)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Shutting down DiscoveryClient ...
+12-02-2018 16:47:22.595 [RMI TCP Connection(2)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient.unregister - Unregistering ...
+12-02-2018 16:47:22.595 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_FEIGN-DEMO/feign-demo:1689726406 - registration status: 204
+12-02-2018 16:47:22.601 [RMI TCP Connection(2)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient.unregister - DiscoveryClient_FEIGN-DEMO/feign-demo:1689726406 - deregister  status: 200
+12-02-2018 16:47:22.613 [RMI TCP Connection(2)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Completed shut down of DiscoveryClient
+12-02-2018 16:47:22.616 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.a.AnnotationConfigApplicationContext.doClose - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3b40cd48: startup date [Mon Feb 12 12:47:52 IST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@429a40a9
+12-02-2018 16:47:22.621 [RMI TCP Connection(2)-127.0.0.1] WARN  o.s.c.a.AnnotationConfigApplicationContext.doClose - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1080)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:283)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:177)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:140)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:399)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:272)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1032)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1008)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+12-02-2018 16:47:22.624 [RMI TCP Connection(2)-127.0.0.1] INFO  c.n.u.c.ShutdownEnabledTimer.cancel - Shutdown hook removed for: NFLoadBalancer-PingTimer-service-1
+12-02-2018 16:47:22.629 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.a.AnnotationConfigApplicationContext.doClose - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d09eefb: startup date [Mon Feb 12 12:47:49 IST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@429a40a9
+12-02-2018 16:47:22.631 [RMI TCP Connection(2)-127.0.0.1] WARN  o.s.c.a.AnnotationConfigApplicationContext.doClose - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1080)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:283)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:177)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:140)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:399)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:272)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1032)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1008)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:275)
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+12-02-2018 16:47:22.633 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-auto-1-51952"]
+12-02-2018 16:47:22.726 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+12-02-2018 16:47:22.759 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-auto-1-51952"]
+12-02-2018 16:47:22.766 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-auto-1"]
+12-02-2018 16:47:22.773 [Thread-14] INFO  c.n.l.PollingServerListUpdater.run - Shutting down the Executor Pool for PollingServerListUpdater
+12-02-2018 16:48:24.483 [restartedMain] INFO  c.example.demo.FeignDemoApplication.logStartupProfileInfo - The following profiles are active: dev
+12-02-2018 16:48:24.503 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c765900: startup date [Mon Feb 12 16:48:24 IST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2686cd1b
+12-02-2018 16:48:25.454 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=10fba5d9-0b24-3a77-84c3-f72777ca9d90
+12-02-2018 16:48:25.474 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.<init> - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+12-02-2018 16:48:25.524 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$749c4cc7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12-02-2018 16:48:26.373 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 0 (http)
+12-02-2018 16:48:26.386 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+12-02-2018 16:48:26.388 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.27
+12-02-2018 16:48:26.723 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+12-02-2018 16:48:26.724 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 2220 ms
+12-02-2018 16:48:26.951 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+12-02-2018 16:48:26.956 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+12-02-2018 16:48:26.957 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+12-02-2018 16:48:26.957 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+12-02-2018 16:48:26.957 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+12-02-2018 16:48:27.018 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b29012: startup date [Mon Feb 12 16:48:27 IST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c765900
+12-02-2018 16:48:27.056 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.<init> - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+12-02-2018 16:48:27.479 [restartedMain] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+12-02-2018 16:48:27.480 [restartedMain] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+12-02-2018 16:48:27.484 [restartedMain] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+12-02-2018 16:48:27.485 [restartedMain] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+12-02-2018 16:48:27.641 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c765900: startup date [Mon Feb 12 16:48:24 IST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2686cd1b
+12-02-2018 16:48:27.702 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+12-02-2018 16:48:27.704 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+12-02-2018 16:48:27.740 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12-02-2018 16:48:27.741 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12-02-2018 16:48:27.783 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12-02-2018 16:48:28.274 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+12-02-2018 16:48:28.495 [restartedMain] WARN  o.s.c.s.e.EurekaStarterDeprecationWarningAutoConfiguration.logWarning - spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+12-02-2018 16:48:28.564 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+12-02-2018 16:48:28.576 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+12-02-2018 16:48:28.577 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'environmentManager' has been autodetected for JMX exposure
+12-02-2018 16:48:28.580 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'refreshScope' has been autodetected for JMX exposure
+12-02-2018 16:48:28.583 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+12-02-2018 16:48:28.598 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+12-02-2018 16:48:28.611 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=2c765900,type=ConfigurationPropertiesRebinder]
+12-02-2018 16:48:28.627 [restartedMain] INFO  o.s.c.s.DefaultLifecycleProcessor.start - Starting beans in phase 0
+12-02-2018 16:48:28.644 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-auto-1"]
+12-02-2018 16:48:28.654 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-auto-1"]
+12-02-2018 16:48:28.670 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+12-02-2018 16:48:28.734 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 57258 (http)
+12-02-2018 16:48:28.735 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration.onApplicationEvent - Updating port to 57258
+12-02-2018 16:48:28.743 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+12-02-2018 16:48:28.791 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+12-02-2018 16:48:29.041 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON encoding codec LegacyJacksonJson
+12-02-2018 16:48:29.042 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using JSON decoding codec LegacyJacksonJson
+12-02-2018 16:48:29.132 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML encoding codec XStreamXml
+12-02-2018 16:48:29.133 [restartedMain] INFO  c.n.d.p.DiscoveryJerseyProvider.<init> - Using XML decoding codec XStreamXml
+12-02-2018 16:48:29.576 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver.getClusterEndpoints - Resolving eureka endpoints via configuration
+12-02-2018 16:48:29.632 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Disable delta property : false
+12-02-2018 16:48:29.632 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Single vip registry refresh property : null
+12-02-2018 16:48:29.632 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Force full registry fetch : false
+12-02-2018 16:48:29.633 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Application is null : false
+12-02-2018 16:48:29.633 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Registered Applications size is zero : true
+12-02-2018 16:48:29.633 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.fetchRegistry - Application version is -1: true
+12-02-2018 16:48:29.633 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry - Getting all instance registry info from the eureka server
+12-02-2018 16:48:29.816 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry - The response status is 200
+12-02-2018 16:48:29.818 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.initScheduledTasks - Starting heartbeat executor: renew interval is: 30
+12-02-2018 16:48:29.821 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator.<init> - InstanceInfoReplicator onDemand update allowed rate per min is 4
+12-02-2018 16:48:29.826 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1518434309826 with initial instances count: 11
+12-02-2018 16:48:29.832 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application feign-demo with eureka with status UP
+12-02-2018 16:48:29.834 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.notify - Saw local status change event StatusChangeEvent [timestamp=1518434309833, current=UP, previous=STARTING]
+12-02-2018 16:48:29.837 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_FEIGN-DEMO/feign-demo:1662513611: registering service...
+12-02-2018 16:48:29.839 [restartedMain] DEBUG c.example.demo.FeignDemoApplication.run - doStuff needed to debug - ABC
+12-02-2018 16:48:29.839 [restartedMain] INFO  c.example.demo.FeignDemoApplication.run - doStuff took input - ABC
+12-02-2018 16:48:29.839 [restartedMain] WARN  c.example.demo.FeignDemoApplication.run - doStuff needed to warn - ABC
+12-02-2018 16:48:29.840 [restartedMain] ERROR c.example.demo.FeignDemoApplication.run - doStuff encountered an error with value - ABC
+12-02-2018 16:48:29.846 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@59b1c95b: startup date [Mon Feb 12 16:48:29 IST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c765900
+12-02-2018 16:48:29.933 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.<init> - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+12-02-2018 16:48:29.946 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_FEIGN-DEMO/feign-demo:1662513611 - registration status: 204
+12-02-2018 16:48:30.139 [restartedMain] INFO  c.n.config.ChainedDynamicProperty.checkAndFlip - Flipping property: service-1.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+12-02-2018 16:48:30.158 [restartedMain] INFO  c.n.u.c.ShutdownEnabledTimer.<init> - Shutdown hook installed for: NFLoadBalancer-PingTimer-service-1
+12-02-2018 16:48:30.176 [restartedMain] INFO  c.n.loadbalancer.BaseLoadBalancer.initWithConfig - Client: service-1 instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=service-1,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+12-02-2018 16:48:30.183 [restartedMain] INFO  c.n.l.DynamicServerListLoadBalancer.enableAndInitLearnNewServersFeature - Using serverListUpdater PollingServerListUpdater
+12-02-2018 16:48:30.207 [restartedMain] INFO  c.n.config.ChainedDynamicProperty.checkAndFlip - Flipping property: service-1.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+12-02-2018 16:48:30.209 [restartedMain] INFO  c.n.l.DynamicServerListLoadBalancer.restOfInit - DynamicServerListLoadBalancer for client service-1 initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=service-1,current list of Servers=[BLRPRGGWD28883.ITCINFOTECH.com:52284],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:BLRPRGGWD28883.ITCINFOTECH.com:52284;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 05:30:00 IST 1970;	First connection made: Thu Jan 01 05:30:00 IST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@7e70f0c6
+12-02-2018 16:48:31.187 [PollingServerListUpdater-0] INFO  c.n.config.ChainedDynamicProperty.checkAndFlip - Flipping property: service-1.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+12-02-2018 16:48:32.365 [restartedMain] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer.logAutoConfigurationReport - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+12-02-2018 16:48:32.398 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure - Application startup failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:735)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:716)
+	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:703)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.example.demo.FeignDemoApplication.main(FeignDemoApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: feign.RetryableException: connect timed out executing GET http://service-1/products
+	at feign.FeignException.errorExecuting(FeignException.java:67)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:104)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:76)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:103)
+	at com.sun.proxy.$Proxy69.findAllProducts(Unknown Source)
+	at com.example.demo.FeignDemoApplication.run(FeignDemoApplication.java:33)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:732)
+	... 11 common frames omitted
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at feign.Client$Default.convertResponse(Client.java:152)
+	at feign.Client$Default.execute(Client.java:74)
+	at org.springframework.cloud.netflix.feign.ribbon.FeignLoadBalancer.execute(FeignLoadBalancer.java:80)
+	at org.springframework.cloud.netflix.feign.ribbon.FeignLoadBalancer.execute(FeignLoadBalancer.java:48)
+	at com.netflix.client.AbstractLoadBalancerAwareClient$1.call(AbstractLoadBalancerAwareClient.java:104)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$3$1.call(LoadBalancerCommand.java:303)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$3$1.call(LoadBalancerCommand.java:287)
+	at rx.internal.util.ScalarSynchronousObservable$3.call(ScalarSynchronousObservable.java:231)
+	at rx.internal.util.ScalarSynchronousObservable$3.call(ScalarSynchronousObservable.java:228)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeConcatMap$ConcatMapSubscriber.drain(OnSubscribeConcatMap.java:286)
+	at rx.internal.operators.OnSubscribeConcatMap$ConcatMapSubscriber.onNext(OnSubscribeConcatMap.java:144)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:185)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
+	at rx.Observable.unsafeSubscribe(Observable.java:10151)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
+	at rx.Subscriber.setProducer(Subscriber.java:209)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10247)
+	at rx.Observable.subscribe(Observable.java:10214)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:444)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:341)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)
+	at org.springframework.cloud.netflix.feign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:63)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:97)
+	... 16 common frames omitted
+12-02-2018 16:48:32.402 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c765900: startup date [Mon Feb 12 16:48:24 IST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2686cd1b
+12-02-2018 16:48:32.403 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry.deregister - Unregistering application feign-demo with eureka with status DOWN
+12-02-2018 16:48:32.403 [restartedMain] WARN  c.netflix.discovery.DiscoveryClient.notify - Saw local status change event StatusChangeEvent [timestamp=1518434312403, current=DOWN, previous=UP]
+12-02-2018 16:48:32.404 [restartedMain] INFO  o.s.c.s.DefaultLifecycleProcessor.stop - Stopping beans in phase 0
+12-02-2018 16:48:32.407 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_FEIGN-DEMO/feign-demo:1662513611: registering service...
+12-02-2018 16:48:32.411 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+12-02-2018 16:48:32.414 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter.unregisterBeans - Unregistering JMX-exposed beans
+12-02-2018 16:48:32.414 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Shutting down DiscoveryClient ...
+12-02-2018 16:48:32.415 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.unregister - Unregistering ...
+12-02-2018 16:48:32.421 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient.register - DiscoveryClient_FEIGN-DEMO/feign-demo:1662513611 - registration status: 204
+12-02-2018 16:48:32.425 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.unregister - DiscoveryClient_FEIGN-DEMO/feign-demo:1662513611 - deregister  status: 200
+12-02-2018 16:48:32.436 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient.shutdown - Completed shut down of DiscoveryClient
+12-02-2018 16:48:32.438 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext.doClose - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@59b1c95b: startup date [Mon Feb 12 16:48:29 IST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c765900
+12-02-2018 16:48:32.439 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext.doClose - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1080)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:283)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:177)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:140)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:399)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:272)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1032)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1008)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.example.demo.FeignDemoApplication.main(FeignDemoApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+12-02-2018 16:48:32.440 [restartedMain] INFO  c.n.u.c.ShutdownEnabledTimer.cancel - Shutdown hook removed for: NFLoadBalancer-PingTimer-service-1
+12-02-2018 16:48:32.444 [restartedMain] INFO  o.s.c.a.AnnotationConfigApplicationContext.doClose - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b29012: startup date [Mon Feb 12 16:48:27 IST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c765900
+12-02-2018 16:48:32.445 [restartedMain] WARN  o.s.c.a.AnnotationConfigApplicationContext.doClose - Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1080)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:283)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:177)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:140)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:399)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:272)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1032)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1008)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.example.demo.FeignDemoApplication.main(FeignDemoApplication.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+12-02-2018 16:48:32.577 [Thread-14] INFO  c.n.l.PollingServerListUpdater.run - Shutting down the Executor Pool for PollingServerListUpdater

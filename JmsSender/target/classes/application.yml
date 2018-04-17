@@ -1,0 +1,18 @@
+server:
+  port: 9000
+  context-path: /msg
+
+template:
+  config:
+    broker-urls:
+    - tcp://127.0.0.1:61616
+    - tcp://127.0.0.1:61617
+    - tcp://127.0.0.1:61618
+    qeues:
+    - Test
+    - Demo
+    - Qeue3
+    listiners:
+    - com.example.demo.listiner.TestMesagListiner
+    - com.example.demo.listiner.TestMesagListiner1
+    - com.example.demo.listiner.TestMesagListiner2
