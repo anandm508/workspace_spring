@@ -1,0 +1,13 @@
+security:
+  oauth2:
+    resource:
+        user-info-uri: http://localhost:9005/user
+
+server:
+  port: 9021
+  servlet:
+    context-path: /resource
+
+logging:
+  level:
+    org.springframework.security: DEBUG
